@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<typeAliases>
+		<typeAlias alias="QnaDTO" type="com.ranzo.power.model.board.dto.QnaDTO" />
+		<typeAlias alias="ReviewDTO" type="com.ranzo.power.model.board.dto.ReviewDTO" />
+		<typeAlias alias="ReviewReplyDTO" type="com.ranzo.power.model.board.dto.ReviewReplyDTO"/>
+		<typeAlias alias="MemberDTO" type="com.ranzo.power.model.member.dto.MemberDTO"  />
+		<typeAlias alias="ExhibitionDTO" type="com.ranzo.power.model.shop.dto.ExhibitionDTO"/>
+		<typeAlias alias="ProductInfoDTO" type="com.ranzo.power.model.shop.dto.ProductInfoDTO"/>
+		<typeAlias alias="reservDTO" type="com.ranzo.power.model.reserv.dto.ReservDTO"/>
+		<typeAlias alias="PopupDTO" type="com.ranzo.power.model.admin.dto.PopupDTO"/>
+		<typeAlias alias="ReservDTO" type="com.ranzo.power.model.reserv.dto.ReservDTO"/>
+		<typeAlias alias="FaqDTO" type="com.ranzo.power.model.board.dto.FaqDTO"/>
+	</typeAliases>
+	
+</configuration>
+
